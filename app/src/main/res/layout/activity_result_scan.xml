@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:gravity="center_vertical"
+              android:layout_width="match_parent"
+              tools:context=".ResultScanActivity"
+              android:layout_height="match_parent">
+
+    <TextView
+            tools:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="#0c0b0c"
+            android:id="@+id/tvResultScan"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="16dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"/>
+
+    <Button android:id="@+id/btnScanAgain"
+            android:textAllCaps="false"
+            android:layout_marginTop="50dp"
+            android:textColor="#FFF"
+            android:textAlignment="center"
+            android:text="Rescan"
+            android:textSize="20sp"
+            android:background="@color/colorPrimary"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
