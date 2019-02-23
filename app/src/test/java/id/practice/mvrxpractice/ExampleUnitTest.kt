@@ -1,4 +1,4 @@
-package local.practice.mvrxpractice
+package id.practice.mvrxpractice
 
 import org.junit.Test
 

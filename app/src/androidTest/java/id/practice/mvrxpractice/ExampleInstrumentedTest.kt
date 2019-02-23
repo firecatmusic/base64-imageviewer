@@ -1,4 +1,4 @@
-package local.practice.mvrxpractice
+package id.practice.mvrxpractice
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

@@ -1,4 +1,4 @@
-package local.practice.mvrxpractice
+package id.practice.mvrxpractice
 
 import android.content.Intent
 import android.os.Bundle
