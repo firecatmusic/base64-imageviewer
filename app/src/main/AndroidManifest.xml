@@ -25,6 +25,7 @@
         <activity android:name="id.practice.mvrxpractice.ResultScanActivity"/>
         <activity android:name=".PreviewImage"/>
         <activity android:name=".PreviewImage2"/>
+        <activity android:name=".AlarmManagerActivity" />
 
     </application>
 

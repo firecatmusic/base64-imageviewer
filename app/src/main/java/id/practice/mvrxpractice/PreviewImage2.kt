@@ -23,7 +23,9 @@ class PreviewImage2 : AppCompatActivity() {
         setContentView(R.layout.activity_previewimage2)
         ivPreviewImage2 = findViewById(R.id.tcv_previewImage2)
         ivPreviewImage2.scaleType = ImageView.ScaleType.FIT_CENTER
-        if (ivPreviewImage2.isZoomed) { ivPreviewImage2.layoutParams = ViewGroup.LayoutParams(MATCH_PARENT, MATCH_PARENT) }
+        if (ivPreviewImage2.isZoomed) {
+            ivPreviewImage2.layoutParams = ViewGroup.LayoutParams(MATCH_PARENT, MATCH_PARENT)
+        }
         if (intent.getStringExtra("photo") != null) {
             image = intent.getStringExtra("photo")
 
